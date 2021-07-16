@@ -1,0 +1,125 @@
+body{
+    overflow-x: hidden;
+}
+@import './variable.scss';
+
+.cart_img img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cart_inc, .cart_dec, .cart_qty{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 6px;
+}
+
+.cart_inc, .cart_dec{
+    cursor: pointer;
+}
+
+.cart_qty{
+    border-left: none;
+    border-right: none;
+}
+
+.cart_main_wrapper h2 {
+    font-size: 23px;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+    margin-top: 30px;
+}
+
+.verticalalin{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart_heading {
+    background: rgba(239, 239, 239, 0.856);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.cart_name {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.cart_price {
+    font-size: 18px;
+    font-weight: 400;
+}
+.remove_btn button {
+    padding: 8px 20px;
+    border: 1px;
+    border-radius: 50px;
+    background-color: #f56c42;
+    color: #fff;
+}
+
+.cart_summery {
+    background: rgba(239, 239, 239, 0.856);
+    padding: 10px;
+    text-align: center;
+
+    & h3 {
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+}
+
+.summery_qty {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.summery_detail{
+    background-color: #f56c42;
+    color: #fff;
+
+    & h4 {
+        font-size: 18px;
+        display: inline-block;
+        margin: 8px;
+    }
+
+    & span{
+        margin-left: 60px;
+        font-size: 17px;
+    font-weight: 500;
+    }
+}
+
+.checkout_btn button {
+    padding: 5px 70px;
+    border: 1px;
+    background: #fff;
+    margin: 13px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.empty_cart_img {
+    text-align: center;
+    margin-top: 50px;
+    & img{
+        width: 400px;
+        object-fit: contain;
+    }
+}
+
+.empty_cart_btn button {
+    padding: 8px 20px;
+    border: 1px;
+    color: #fff;
+    background: $theme-color;
+    font-size: 16px;
+    font-weight: 500;
+}

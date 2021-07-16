@@ -1,0 +1,60 @@
+.footer{
+    background-color: #232F3E;
+    padding: 40px;
+
+    & h3 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    & ul {
+
+        & li{
+            list-style: none;
+            text-align: left;
+            color: #fff;
+            font-size: 13px;
+            line-height: 33px;
+            margin-left: -25px;
+            cursor: pointer;
+        }
+    }
+
+    & hr {
+        background: #fff;
+    }
+
+    & p {
+        color: #fff;
+        font-size: 13px;
+        text-align: center;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-weight: 200;
+        padding-top: 15px;
+    }
+
+    & svg {
+        color: #fff;
+        font-size: 40px;
+        margin-right: 30px;
+    }
+}
+
+.footer_logo {
+    text-align: center;
+
+    & img {
+        width: 150px;
+    }
+
+    & button {
+        padding: 5px 15px;
+        border: 1px solid;
+        font-size: 15px;
+        font-weight: 500;
+        background: transparent;
+        color: #fff;
+    }
+}

@@ -1,0 +1,20 @@
+.category_main_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 2px 0 rgb(144, 144, 144);
+    margin-bottom: 20px;
+    padding: 5px;
+    z-index: 99999;
+    position: absolute;
+    width: 100%;
+
+    & img{
+        width: 70px;
+        cursor: pointer;
+    }
+
+    & h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+}

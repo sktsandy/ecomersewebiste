@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import './sass/header';
+@import './sass/products';
+@import './sass/details';
+@import './sass/cart';
+@import './sass/variable';
+@import './sass/category';
+@import './sass/footer';
+
+.silder img{
+  width: 100%;
+}
+
+.silder{
+  margin-bottom: 80px;
+}
+
+.All_component_heandler{
+  min-height: 80vh;
+}

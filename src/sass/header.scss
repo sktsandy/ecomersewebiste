@@ -1,0 +1,43 @@
+.header {
+    height: 65px;
+    background-color: #3483eb;
+  }
+  .header .a_active {
+    color: #fff !important;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .logo img {
+    width: 130px;
+    margin-top: -15px;
+  }
+  
+  .cart_icon {
+    background: #fca903;
+    padding: 2px 13px;
+    border: 1px;
+    border-radius: 50px;
+  
+    & span {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  
+    & svg {
+      font-size: 30px;
+      color: #fff;
+    }
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    margin-bottom: 28px;
+}
+
+.search_bar input {
+  margin-bottom: 25px;
+  width: 400px;
+  border: 1px;
+  border-radius: 5px;
+  outline: none;
+  padding: 6px;
+}
